@@ -6,7 +6,7 @@
     #include <stdbool.h>
     // 散列表内部参数定义
     #define 散列表_unicode切片_编码_装载因子
-    #define 装载因子(x) (((x)->用量)/((x)->容量))
+    #define 装载因子(x) ((float)((x)->用量)/((x)->容量))
     #define 散列表_最大装载因子 (0.75)
     #define 散列表_最小装载因子 (0.1)
     #define 散列表_链表_最大长度 (8)
